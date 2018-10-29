@@ -8,7 +8,7 @@
 	<meta name="author" content="IGOR">
 	<meta name="keywords" content="DEVICE">
 	<meta name="description" content="MY PROJECT">
-	<link rel="icon" href="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="css/index.css">
 
 </head>
@@ -17,7 +17,7 @@
 
 	<header class="main-header">
 
-		<p class="header-device">DEVICE</p>
+		<p class="logo-header"><img src="/image/index/logo-header.svg" alt="Логотип нашей фирмы"></p>
 
 		<p class="header-search">
 			<label for="search">
@@ -69,14 +69,12 @@
 
 		<h1 class="visually-hidden">Магазин DEVICE</h1>
 
-
-
 		<section class="product-01">
 
 			<h2 class="visually-hidden">Селфи палка</h2>
 
 			<p class="img-01">
-				<img src="#" alt="Длинная селфи палка" width="" height="">
+				<img src="/image/index/slider-1.png" alt="Длинная селфи палка" width="384" height="486">
 			</p>
 
 			<p class="product-01-title">
@@ -130,7 +128,7 @@
 			<h2 class="visually-hidden">Часы-браслет</h2>
 
 			<p class="img-02">
-				<img src="#" alt="Часы браслет" width="" height="">
+				<img src="/image/index/slider-2.png" alt="Часы браслет" width="345" height="485">
 			</p>
 
 			<p class="product-02-title">
@@ -177,7 +175,7 @@
 			<h2 class="visually-hidden">Квадрокоптер</h2>
 
 			<p class="img-03">
-				<img src="#" alt="Квадрокоптер" width="" height="">
+				<img src="/image/index/slider-3.png" alt="Квадрокоптер" width="526" height="334">
 			</p>
 
 			<p class="product-03-title">
@@ -222,46 +220,46 @@
 
 
 
-		<ul class="product-category-list">
+		<ul class="popular-category-list">
 
-			<li class="product-category-item">
+			<li class="popular-category-item">
 				<a href="">
-					<img src="#" width="" height="" alt="Виртуальная реальность">
+					<img src="/image/index/popular-1.svg" width="97" height="55" alt="Виртуальная реальность">
 				</a>
 				<a href=""><span class="category">Виртуальная реальность</span></a>
 			</li>
 
-			<li class="product-category-item">
+			<li class="popular-category-item">
 				<a href="">
-					<img src="#" width="" height="" alt="Моноподы для селфи">
+					<img src="/image/index/popular-2.svg" width="86" height="117" alt="Моноподы для селфи">
 				</a>
 				<a href=""><span class="category">Моноподы для селфи</span></a>
 			</li>
 
-			<li class="product-category-item">
+			<li class="popular-category-item">
 				<a href="">
-					<img src="#" width="" height="" alt="Экшн-камеры">
+					<img src="/image/index/popular-3.svg" width="71" height="87" alt="Экшн-камеры">
 				</a>
 				<a href=""><span class="category">Экшн-камеры</span></a>
 			</li>
 
-			<li class="product-category-item">
+			<li class="popular-category-item">
 				<a href="">
-					<img src="#" width="" height="" alt="Фитнес-браслеты">
+					<img src="/image/index/popular-4.svg" width="107" height="65" alt="Фитнес-браслеты">
 				</a>
 				<a href=""><span class="category">Фитнес-браслеты</span></a>
 			</li>
 
-			<li class="product-category-item">
+			<li class="popular-category-item">
 				<a href="">
-					<img src="#" width="" height="" alt="Умные часы">
+					<img src="/image/index/popular-5.svg" width="56" height="98" alt="Умные часы">
 				</a>
 				<a href=""><span class="category">Умные часы</span></a>
 			</li>
 
-			<li class="product-category-item">
+			<li class="popular-category-item">
 				<a href="">
-					<img src="#" width="" height="" alt="Квадрокоптеры">
+					<img src="/image/index/popular-6.svg" width="132" height="69" alt="Квадрокоптеры">
 				</a>
 				<a href=""><span class="category">Квадрокоптеры</span></a>
 			</li>
@@ -270,7 +268,8 @@
 
 
 
-		<section class="service">
+
+		<section class="delivery">
 
 			<h2 class="visually-hidden">Наши услуги</h2>
 
@@ -280,11 +279,11 @@
 				<li class="service-item"><span class="button">Кредит</span></li>
 			</ul>
 
-			<div class="service-content">
+			<div class="delivery-content">
 
 				<h3>Доставка</h3>
 
-				<p class="service-text">Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы
+				<p class="delivery-text">Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы
 					неплохо заработаем, поднимая его на ваш этаж.</p>
 
 			</div>
@@ -293,29 +292,80 @@
 
 
 
+
+		<section class="warranty">
+
+			<h2 class="visually-hidden">Наши услуги</h2>
+
+			<ul class="service-list">
+				<li class="service-item"><span class="button">Доставка</span></li>
+				<li class="service-item-current"><span class="button">Гарантия</span></li>
+				<li class="service-item"><span class="button">Кредит</span></li>
+			</ul>
+
+			<div class="warranty-content">
+
+				<h3>Гарантия</h3>
+
+				<p class="warranty-text">Если из-за возгорания купленного у нас товара у вас сгорит дом — не переживайте, мы выдадим вам новый.
+					Товар, не дом, конечно же.</p>
+
+			</div>
+
+		</section>
+
+
+
+
+		<section class="credit">
+
+			<h2 class="visually-hidden">Наши услуги</h2>
+
+			<ul class="service-list">
+				<li class="service-item"><span class="button">Доставка</span></li>
+				<li class="service-item"><span class="button">Гарантия</span></li>
+				<li class="service-item-current"><span class="button">Кредит</span></li>
+			</ul>
+
+			<div class="credit-content">
+
+				<h3>Кредит</h3>
+
+				<p class="credit-text">Залезть в долговую яму стало проще! Кредитные консультанты подберут для вас наиболее выгодные 
+					условия кредита. Выгодные для нашего банка, разумеется</p>
+
+			</div>
+
+		</section>
+
+
+
+
+
+
 		<ul class="partner-list">
 
 			<li class="partner-item">
 				<a href="#">
-					<img src="" width="" height="" alt="">
+					<img src="/image/index/logo-1.png" width="260" height="100" alt="Наши партнеры">
 				</a>
 			</li>
 
 			<li class="partner-item">
 				<a href="#">
-					<img src="" width="" height="" alt="">
+					<img src="/image/index/logo-2.png" width="256" height="48" alt="Наши партнеры">
 				</a>
 			</li>
 
 			<li class="partner-item">
 				<a href="#">
-					<img src="" width="" height="" alt="">
+					<img src="/image/index/logo-3.png" width="184" height="48" alt="Наши партнеры">
 				</a>
 			</li>
 
 			<li class="partner-item">
 				<a href="#">
-					<img src="" width="" height="" alt="">
+					<img src="/image/index/logo-4.png" width="200" height="56" alt="Наши партнеры">
 				</a>
 			</li>
 
@@ -353,7 +403,7 @@
 				Всякое бывает.</p>
 
 			<p class="map">
-				<a href=""><img src="" width="" height="" alt="Карта"></a>
+				<a href=""><img src="/image/index/small-map.png" width="560" height="222" alt="Карта"></a>
 			</p>
 
 			<p class="write-us yellow-stroke">
@@ -367,7 +417,7 @@
 
 	<footer class="main-footer">
 
-		<p class="footer-device">DEVICE</p>
+		<p class="logo-footer"><img src="/image/index/logo-footer.svg" alt="Логотип нашей фирмы"></p>
 
 		<p class="address">г. Москва, ул. Строителей, 15</p>
 
@@ -395,7 +445,7 @@
 		<p class="tel">Тел.: +7 (495) 495-95-95</p>
 
 		<p class="logo-html">
-			<a href="https://htmlacademy.ru/intensive/htmlcss"><img src="" width="" height="" alt=""></a>
+			<a href="https://htmlacademy.ru/intensive/htmlcss"><img src="/image/index/logo-html.svg" width="27" height="35" alt="Сайт нашего друга"></a>
 		</p>
 
 	</footer>
@@ -418,6 +468,7 @@
 
 	<section class="modal modal-map">
 		<h2 class="visually-hidden">Как нас найти</h2>
+		<p class="big-map"><img src="/image/index/map-big.jpg" alt="Местонахождение на карте"></p>
 		<span class="modal-close">x</span>
 	</section>
 
