@@ -321,8 +321,8 @@ p[class|='product'] b {
 	opacity: 0;
 }
 
-.partner-item-1:hover {
-	background: url(/image/index/logo-1-hover.png) no-repeat;
+.brands>li:hover{
+	background: url(image/index/logo-1-hover.png) no-repeat;
 }
 
 .partner-item-2:hover {
